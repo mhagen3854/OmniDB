@@ -125,6 +125,8 @@ shared_preload_libraries = 'omnidb_plugin'
 
 Then restart PostgreSQL.
 
+Note: If Restart Fails with the Windows Event "could not load library … omnidb_plugin.dll: The specified module could not be found, you may have to install the Microsoft vcruntime140.dll from https://www.microsoft.com/en-us/download/details.aspx?id=52685
+
 ## 2.4. Post-installation steps
 
 ### 2.4.1. Create omnidb schema in your database (should be done by a superuser)
